@@ -1,0 +1,21 @@
+{
+  "name": "theia-electron-test1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tomek Rozen <trozen@pumasoft.pl>",
+  "devDependencies": {
+    "@theia/cli": "^1.34.2",
+    "electron": "^15.3.5"
+  },
+  "dependencies": {
+    "@theia/core": "^1.34.2",
+    "@theia/editor": "^1.34.2",
+    "@theia/electron": "^1.34.2",
+    "@theia/messages": "^1.34.2",
+    "@theia/navigator": "^1.34.2",
+    "@theia/preferences": "^1.34.2"
+  },
+  "theia": {
+    "target": "electron"
+  }
+}
